@@ -13,7 +13,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      name: RaviSHApool
+      name: Default
     steps:
     - task: DotNetCoreCLI@2
       displayName: Restore
